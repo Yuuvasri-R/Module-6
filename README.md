@@ -25,11 +25,11 @@ To create an *abstract class* named Shape with an *abstract method* calculate_ar
 5. *Create Objects & Call Methods*:
    - Instantiate Rectangle and Circle.
    - Call their calculate_area() methods.
-
+```
 ---
 
 # 💻 Program
-
+```
 from abc import ABC
 class Shape(ABC):
     def calculate_area(self):
@@ -63,8 +63,6 @@ The program successfully calculates area of shapes using abstarct method and cla
 
 To create an *abstract class* named Shape with an *abstract method* calculate_area, and implement this method in two subclasses: Rectangle and Circle.
 
----
-
 ## 🧠 ALGORITHM
 ```
 1. *Import ABC module*:
@@ -84,11 +82,10 @@ To create an *abstract class* named Shape with an *abstract method* calculate_ar
 5. *Create Objects & Call Methods*:
    - Instantiate Rectangle and Circle.
    - Call their calculate_area() methods.
-
----
+```
 
 ## 💻 Program
-
+```
 from abc import ABC
 class Shape(ABC):
     def calculate_area(self):
@@ -158,8 +155,6 @@ The program successfully creates class inheritance
 
 To write a Python program that demonstrates **operator overloading** by overloading the **less than (`<`)** operator using a custom class.
 
----
-
 ## 🧠 ALGORITHM
 
 1. **Create Class `A`**:
@@ -175,8 +170,6 @@ To write a Python program that demonstrates **operator overloading** by overload
 
 4. **Use `<` Operator**:
    - Use `print(ob1 < ob2)` to trigger the overloaded behavior.
-
----
 
 ## 💻 Program
 ```
